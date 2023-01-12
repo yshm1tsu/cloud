@@ -88,7 +88,7 @@ def put_image(bucket, name, content):
         Body=content,
         Bucket=bucket,
         Key=name,
-        ContentType='application/octet-stream'
+        ContentType='image/jpeg'
     )
 
 
